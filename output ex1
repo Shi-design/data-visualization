@@ -1,0 +1,258 @@
+CSV File Uploaded Successfully!
+     Company                           Item Calories Calories from\nFat  \
+0  McDonald’s                      Hamburger      250                 80   
+1  McDonald’s                   Cheeseburger      300                110   
+2  McDonald’s            Double Cheeseburger      440                210   
+3  McDonald’s                       McDouble      390                170   
+4  McDonald’s   Quarter Pounder® with Cheese      510                230   
+
+  Total Fat\n(g) Saturated Fat\n(g) Trans Fat\n(g) Cholesterol\n(mg)  \
+0              9                3.5            0.5                25   
+1             12                  6            0.5                40   
+2             23                 11            1.5                80   
+3             19                  8              1                65   
+4             26                 12            1.5                90   
+
+  Sodium \n(mg) Carbs\n(g) Fiber\n(g) Sugars\n(g) Protein\n(g)  \
+0           520         31          2           6           12   
+1           750         33          2           6           15   
+2          1150         34          2           7           25   
+3           920         33          2           7           22   
+4          1190         40          3           9           29   
+
+  Weight Watchers\nPnts  
+0                 247.5  
+1                   297  
+2                   433  
+3                   383  
+4                   502  
+
+Missing Values:
+Company                    0
+Item                       0
+Calories                   1
+Calories from\nFat       506
+Total Fat\n(g)            57
+Saturated Fat\n(g)        57
+Trans Fat\n(g)            57
+Cholesterol\n(mg)          1
+Sodium \n(mg)              1
+Carbs\n(g)                57
+Fiber\n(g)                57
+Sugars\n(g)                1
+Protein\n(g)              57
+Weight Watchers\nPnts    261
+dtype: int64
+
+Missing Values Filled!
+
+Duplicate Rows: 7
+Duplicates Removed!
+
+Outliers:
+          Company                                               Item  \
+9      McDonald’s                               Angus Bacon & Cheese   
+11     McDonald’s                             Angus Mushroom & Swiss   
+29     McDonald’s                           Angus Chipotle BBQ Bacon   
+87     McDonald’s                Big Breakfast® (Large Size Biscuit)   
+88     McDonald’s  Big Breakfast with Hotcakes (Regular Size Bisc...   
+89     McDonald’s   Big Breakfast with Hotcakes (Large Size Biscuit)   
+124    McDonald’s             Chocolate McCafé® Shake (22 fl oz cup)   
+127    McDonald’s       Chocolate Triple Thick® Shake (21 fl oz cup)   
+128    McDonald’s       Chocolate Triple Thick® Shake (32 fl oz cup)   
+133    McDonald’s            Strawberry McCafé® Shake (22 fl oz cup)   
+137    McDonald’s      Strawberry Triple Thick® Shake (32 fl oz cup)   
+140    McDonald’s               Vanilla McCafé® Shake (22 fl oz cup)   
+141    McDonald’s         Vanilla Triple Thick Shake® (32 fl oz cup)   
+331   Burger King                   Bacon & Cheese Whopper® Sandwich   
+332   Burger King                           Double Whopper® Sandwich   
+333   Burger King               Double Whopper® Sandwich with Cheese   
+334   Burger King                           Triple Whopper® Sandwich   
+335   Burger King               Triple Whopper® Sandwich with Cheese   
+337   Burger King                                Bacon King Sandwich   
+338   Burger King                        Cheddar Bacon King Sandwich   
+340   Burger King                 Double Quarter Pound King Sandwich   
+342   Burger King                                Double Stacker King   
+354   Burger King             Bacon & Cheese Crispy Chicken Sandwich   
+355   Burger King                  BBQ Bacon Crispy Chicken Sandwich   
+361   Burger King                              Chicken Nuggets- 20pc   
+365   Burger King                       Spicy Chicken Nuggets- 20 pc   
+418   Burger King                               EGG-NORMOUS BURRITOΡ   
+419   Burger King                     BK™ Ultimate Breakfast Platter   
+420   Burger King           NY Ultimate Platter (Regional menu item)   
+519       Wendy’s                                          Baconator   
+520       Wendy’s                                      Dave’s Double   
+522       Wendy’s                                      Dave’s Triple   
+672       Wendy’s                               Two Sausage Biscuits   
+678           KFC                                     Chicken Breast   
+723           KFC                           BBQ Baked Beans (Family)   
+731           KFC                              Potato Salad (Family)   
+732           KFC                       Secret Recipe Fries (Family)   
+782           KFC                      Classic Lemonade (1/2 Gallon)   
+865           KFC                   Strawberry Lemonade (1/2 Gallon)   
+956     Taco Bell         Cinnabon® Delights™ (12 Pk – Serves 4) (V)   
+995     Taco Bell           Cinnabon® Delights™ (12 Pack – Serves 4)   
+1010    Taco Bell       Cinnabon® Delights™ (12 Pack – Serves 4) (V)   
+
+      Calories Calories from\nFat Total Fat\n(g) Saturated Fat\n(g)  \
+9        790.0                350             39                 17   
+11       770.0                360             40                 17   
+29       800.0                350             39                 18   
+87       800.0                470             52                 18   
+88      1090.0                510             56                 19   
+89      1150.0                540             60                 20   
+124      880.0                220             24                 15   
+127      770.0                160             18                 11   
+128     1160.0                240             27                 16   
+133      860.0                220             24                 15   
+137     1110.0                240             26                 16   
+140      830.0                210             24                 14   
+141     1110.0                240             26                 16   
+331      790.0                460             51                 17   
+332      900.0                520             58                 20   
+333      980.0                580             64                 24   
+334     1130.0                680             75                 28   
+335     1220.0                740             82                 32   
+337     1150.0                710             79                 31   
+338     1190.0                750             84                 33   
+340      900.0                480             54                 25   
+342     1050.0                610             68                 28   
+354      800.0                460             52                 13   
+355      790.0                440             49                 10   
+361      860.0                490             54                  9   
+365     1050.0                670             74                 15   
+418      780.0                380             42                 15   
+419      930.0                390             44                 11   
+420      900.0                420             46                 12   
+519      950.0                NaN             62                 24   
+520      810.0                NaN             51                 20   
+522     1090.0                NaN             72                 30   
+672      960.0                NaN             65                 31   
+678      770.0                NaN             60                 10   
+723      830.0                NaN              5                  1   
+731     1200.0                NaN             98                 16   
+732      840.0                NaN             40                  5   
+782      880.0                NaN              0                  0   
+865      950.0                NaN              0                  0   
+956      930.0                480             53                 13   
+995      930.0                480             53                 13   
+1010     930.0                480             53                 13   
+
+     Trans Fat\n(g) Cholesterol\n(mg) Sodium \n(mg) Carbs\n(g) Fiber\n(g)  \
+9                 2               145          2070         63          4   
+11                2               135          1170         59          4   
+29                2               145          2020         66          4   
+87                0               555          1680         56          4   
+88                0               575          2150        111          6   
+89                0               575          2260        116          7   
+124             1.5                75           370        147          1   
+127               1                70           330        134          1   
+128               2               100           510        203          2   
+133             1.5                75           260        144          0   
+137               2               100           350        194          0   
+140             1.5                75           270        138          0   
+141               2               100           370        193          0   
+331               2               125          1560         50          2   
+332               3               175          1050         49          2   
+333               3               195          1410         50          2   
+334               4               255          1120         49          2   
+335             4.5               280          1470         50          2   
+337             3.5               240          2150         49          2   
+338             3.5               235          1930         50          2   
+340               3               210          1740         50          2   
+342             3.5               235          1870         49          1   
+354               1                95          1650         55          2   
+355             0.5                80          1630         60          2   
+361               0               115          1570         53          3   
+365               0               110          2840         56          9   
+418               0               355          1960         68          3   
+419               0               390          2230        110          4   
+420               0               380          1760         95          5   
+519               3               205          1630         40          2   
+520               3               175          1280         41          3   
+522               4               260          1650         43          3   
+672               0                95          2020         70          3   
+678               0               105          1530         21          1   
+723               0                 0          2810        148         31   
+731               0                80          1010         65          8   
+732               0                 0          2890        108          9   
+782               0                 0           780        234          0   
+865               0                 0           790        270          0   
+956               2                40           480        104          3   
+995               2                40           480        104          3   
+1010              2                40           480        104          3   
+
+     Sugars\n(g) Protein\n(g) Weight Watchers\nPnts  
+9             13           45                   775  
+11             8           44                   751  
+29            16           45                   789  
+87             3           28                   793  
+88            17           36                  1090  
+89            17           36                  1151  
+124          121           18                   998  
+127          111           18                   874  
+128          168           27                  1317  
+133          124           18                   981  
+137          168           25                  1269  
+140          103           17                   930  
+141          145           25                  1246  
+331           11           35                   783  
+332           11           48                   883  
+333           11           52                   963  
+334           11           67                  1102  
+335           11           71                  1192  
+337           10           61                  1130  
+338           11           64                  1170  
+340           11           56                   880  
+342           11           61                  1028  
+354            8           30                   791  
+355           13           28                   785  
+361            1           39                   831  
+365            1           40                  1026  
+418            4           32                   767  
+419           40           24                   957  
+420           31           25                   918  
+519            8           59                   923  
+520            8           49                   789  
+522            9           71                  1058  
+672           10           23                   978  
+678            1           35                   746  
+723           63           47                   847  
+731           12            8                  1220  
+732            0           13                   832  
+782          228            0                  1108  
+865          264            0                  1214  
+956           59            9                   NaN  
+995           59            9                   NaN  
+1010          59            9                   NaN  
+
+Normalization Completed!
+
+Encoding Completed!
+   Company  Item  Calories  Calories from\nFat  Total Fat\n(g)  \
+0        2   420  0.204918                  61              70   
+1        2   186  0.245902                   3               6   
+2        2   340  0.360656                  15              19   
+3        2   659  0.319672                  10              13   
+4        2     0  0.418033                  17              22   
+
+   Saturated Fat\n(g)  Trans Fat\n(g)  Cholesterol\n(mg)  Sodium \n(mg)  \
+0                  21               1                 30            142   
+1                  30               1                 46            181   
+2                   5               3                 59             23   
+3                  32               2                 56            202   
+4                   6               3                 61             27   
+
+   Carbs\n(g)  Fiber\n(g)  Sugars\n(g)  Protein\n(g)  Weight Watchers\nPnts  
+0          60           6           81             4                    150  
+1          62           6           81             7                    197  
+2          63           6           91            18                    322  
+3          62           6           91            15                    284  
+4          70           7          111            22                    369  
+/tmp/ipykernel_3146/2333034798.py:43: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  df[col].fillna(df[col].mean(), inplace=True)
