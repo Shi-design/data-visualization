@@ -1,0 +1,135 @@
+CSV Uploaded Successfully!
+
+      Company                           Item  Calories Calories from\nFat  \
+0  McDonald’s                      Hamburger     250.0                 80   
+1  McDonald’s                   Cheeseburger     300.0                110   
+2  McDonald’s            Double Cheeseburger     440.0                210   
+3  McDonald’s                       McDouble     390.0                170   
+4  McDonald’s   Quarter Pounder® with Cheese     510.0                230   
+
+  Total Fat\n(g) Saturated Fat\n(g) Trans Fat\n(g) Cholesterol\n(mg)  \
+0              9                3.5            0.5                25   
+1             12                  6            0.5                40   
+2             23                 11            1.5                80   
+3             19                  8              1                65   
+4             26                 12            1.5                90   
+
+  Sodium \n(mg) Carbs\n(g) Fiber\n(g) Sugars\n(g) Protein\n(g)  \
+0           520         31          2           6           12   
+1           750         33          2           6           15   
+2          1150         34          2           7           25   
+3           920         33          2           7           22   
+4          1190         40          3           9           29   
+
+  Weight Watchers\nPnts  
+0                 247.5  
+1                   297  
+2                   433  
+3                   383  
+4                   502  
+
+Shape:
+(1133, 14)
+
+Data Types:
+Company                   object
+Item                      object
+Calories                 float64
+Calories from\nFat        object
+Total Fat\n(g)            object
+Saturated Fat\n(g)        object
+Trans Fat\n(g)            object
+Cholesterol\n(mg)         object
+Sodium \n(mg)             object
+Carbs\n(g)                object
+Fiber\n(g)                object
+Sugars\n(g)               object
+Protein\n(g)              object
+Weight Watchers\nPnts     object
+dtype: object
+
+Summary:
+          Calories
+count  1133.000000
+mean    287.356575
+std     222.135591
+min       0.000000
+25%     140.000000
+50%     240.000000
+75%     390.000000
+max    1220.000000
+
+Items Above Average Calories:
+      Company                                 Item  Calories  \
+1  McDonald’s                         Cheeseburger     300.0   
+2  McDonald’s                  Double Cheeseburger     440.0   
+3  McDonald’s                             McDouble     390.0   
+4  McDonald’s         Quarter Pounder® with Cheese     510.0   
+5  McDonald’s  Double Quarter Pounder® with Cheese     740.0   
+
+  Calories from\nFat Total Fat\n(g) Saturated Fat\n(g) Trans Fat\n(g)  \
+1                110             12                  6            0.5   
+2                210             23                 11            1.5   
+3                170             19                  8              1   
+4                230             26                 12            1.5   
+5                380             42                 19            2.5   
+
+  Cholesterol\n(mg) Sodium \n(mg) Carbs\n(g) Fiber\n(g) Sugars\n(g)  \
+1                40           750         33          2           6   
+2                80          1150         34          2           7   
+3                65           920         33          2           7   
+4                90          1190         40          3           9   
+5               155          1380         40          3           9   
+
+  Protein\n(g) Weight Watchers\nPnts  
+1           15                   297  
+2           25                   433  
+3           22                   383  
+4           29                   502  
+5           48                   720  
+
+Top High Calorie Foods:
+         Company                                              Item  Calories  \
+335  Burger King              Triple Whopper® Sandwich with Cheese    1220.0   
+731          KFC                             Potato Salad (Family)    1200.0   
+338  Burger King                       Cheddar Bacon King Sandwich    1190.0   
+128   McDonald’s      Chocolate Triple Thick® Shake (32 fl oz cup)    1160.0   
+89    McDonald’s  Big Breakfast with Hotcakes (Large Size Biscuit)    1150.0   
+
+    Calories from\nFat Total Fat\n(g) Saturated Fat\n(g) Trans Fat\n(g)  \
+335                740             82                 32            4.5   
+731                NaN             98                 16              0   
+338                750             84                 33            3.5   
+128                240             27                 16              2   
+89                 540             60                 20              0   
+
+    Cholesterol\n(mg) Sodium \n(mg) Carbs\n(g) Fiber\n(g) Sugars\n(g)  \
+335               280          1470         50          2          11   
+731                80          1010         65          8          12   
+338               235          1930         50          2          11   
+128               100           510        203          2         168   
+89                575          2260        116          7          17   
+
+    Protein\n(g) Weight Watchers\nPnts  
+335           71                  1192  
+731            8                  1220  
+338           64                  1170  
+128           27                  1317  
+89            36                  1151  
+
+Mean = 287.3565754633716
+Median = 240.0
+Mode =
+0    0.0
+Name: Calories, dtype: float64
+Standard Deviation = 222.13559102079128
+
+Average Calories by Company
+Company
+Burger King    359.189944
+KFC            215.229358
+McDonald’s     284.618902
+Pizza Hut      253.378378
+Taco Bell      292.166667
+Wendy’s        322.500000
+Name: Calories, dtype: float64
